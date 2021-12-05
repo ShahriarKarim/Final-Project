@@ -1,6 +1,6 @@
 <?php
 
-    include = "connection.php";
+    include "connection.php";
     session_start();
 
     $fname = $_POST['fName'];
@@ -15,7 +15,6 @@
     $order = "ARVR" . rand(10000, 99999999);
     $cust  = "CUST" . rand(1000, 999999);
 
-    $_SESSION = ['ORDERID'] = $order;
 
     if ((!$_POST['submit'])) {
         echo "<script>alert('You are Not Suppose to come Here Directly');window.location.href='index.php';</script>";
