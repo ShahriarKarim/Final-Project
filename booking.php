@@ -2,15 +2,15 @@
 <html lang = "en">
 
     <?php
-        $id = $_GET['id'];
-        //conditions
-        if ((!$_GET['id'])) {
-            echo "<script>alert('You are Not Suppose to come Here Directly');window.location.href='index.php';</script>";
-        }
-        include "connection.php";
-        $movieQuery = "SELECT * FROM movieTable WHERE movieID = $id";
-        $movieImageById = mysqli_query($con, $movieQuery);
-        $row = mysqli_fetch_array($movieImageById);
+    $id = $_GET['id'];
+    //conditions
+    if ((!$_GET['id'])) {
+        echo "<script>alert('You are Not Suppose to come Here Directly');window.location.href='index.php';</script>";
+    }
+    include "connection.php";
+    $movieQuery = "SELECT * FROM movieTable WHERE movieID = $id";
+    $movieImageById = mysqli_query($con, $movieQuery);
+    $row = mysqli_fetch_array($movieImageById);
     ?>
 
     <head>
@@ -63,7 +63,7 @@
                         </tr>
                     </table>
                 </div>
-                <div class = "booking-form-container">
+                <div class = "booking-form-container" style = "background-color: #FF8C00">
                     <form action = "verify.php" method = "POST">
 
                         <select name = "theatre" required>
@@ -106,7 +106,7 @@
                         <input placeholder="Email" type = "email" name = "email" required>
                         <input type = "hidden" name = "movie_id" value = "<?php echo $id; ?>">
 
-                        <button type="submit" value="save" name="submit" class="form-btn">Book Seat!</button>
+                        <button type="submit" value="save" name="submit" class="form-btn" style = "background-color: #cf4545">Book Seat!</button>
                     </form>
                 </div>
             </div>
