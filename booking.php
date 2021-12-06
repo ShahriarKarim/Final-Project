@@ -30,7 +30,7 @@
         <script src="_.js "></script> // NEEDS TO BE ADDED SOMEHOW
     </head>
 
-    <body style="background-color:#e4edf6;">
+    <body style="background-color:#00BFFF;">
         <div class = "booking-panel">
             <div class = "booking-panel-section booking-panel-section1">
                 <h1>Ticket Reservation</h1>
