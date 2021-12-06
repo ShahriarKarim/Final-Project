@@ -78,7 +78,7 @@
                             <option value="3d">3D</option>
                             <option value="2d">2D</option>
                             <option value="imax">IMAX</option>
-                            <option value="7d">7D</option>
+                            <option value="7d">4DX</option>
                         </select>
 
                         <select name = "date" required>
