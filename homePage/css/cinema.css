@@ -1,0 +1,39 @@
+body{
+	background-color: AliceBlue;
+	border-color: turquoise;
+	border-style: solid;
+}
+
+#center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#available{
+	color: deepskyblue;
+}
+
+
+#instructions{
+	background-color: gold;
+
+}
+
+#Howto{
+	color: orange;
+}
+
+#Navigation{
+	font-size: 25px;
+	color: orange;
+	background-color: gold;
+}
+
+#Howto{
+	font-size: 20px;
+	color: deepskyblue;
+	text-align: left;
+	font-weight: bold;			
+}
