@@ -27,7 +27,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <title>Booking for: <?php echo $row['movieTitle']; ?></title>
         <link rel="icon" type="image/png" href="img/logo.png"> 
-        <script src="_.js "></script> // NEEDS TO BE ADDED SOMEHOW
+        <script src="_.js "></script> 
     </head>
 
     <body style="background-color:#00BFFF;">
