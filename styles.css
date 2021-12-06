@@ -34,7 +34,7 @@ header {
   left: -25%;
   height: 219%;
   width: 200%;
-  background: #aa964c;
+  background: #00BFFF;
   box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);
   transform: rotateZ(-6deg) skew(-6deg);
 }
@@ -45,12 +45,12 @@ header {
   left: 2vmax;
   padding: 0;
   margin: 0;
-  color: #fff;
+  color: #FF8C00;
   font-size: 7em;
   font-family: "Lobster", cursive;
   transform: rotateZ(-6deg);
-  text-shadow: 2px 2px 0px #6e5a11, 4px 4px 0px #836d24, 6px 6px 0px #a88616,
-    8px 8px 0px #b08909, 10px 10px 0px #ab995e;
+  text-shadow: 2px 2px 0px #dda976, 4px 4px 0px #dda976, 6px 6px 0px #dda976,
+    8px 8px 0px #dda976, 10px 10px 0px #dda976;
 }
 
 nav {
@@ -114,8 +114,8 @@ footer {
   display: grid;
   grid-gap: 5px;
   padding: 10px 10%;
-  background-color: #4e4e4e;
-  color: #fff;
+  background-color: #FF8C00;
+  color: rgb(255, 255, 255);
   bottom: 0;
   width: 100%;
   margin-top: 40px;
@@ -138,11 +138,11 @@ footer {
     left: 1vmax;
     padding: 0;
     margin: 0;
-    color: #fff;
+    color: #00BFFF;
     font-size: 7em;
     font-family: "Lobster", cursive;
-    text-shadow: 2px 2px 0px #6e5a11, 4px 4px 0px #836d24, 6px 6px 0px #a88616,
-      8px 8px 0px #b08909, 10px 10px 0px #ab995e;
+    text-shadow: 2px 2px 0px #b9e5ff, 4px 4px 0px #b9e5ff, 6px 6px 0px #b9e5ff,
+      8px 8px 0px #b9e5ff, 10px 10px 0px #b9e5ff;
   }
   
 .footer-section {
@@ -181,7 +181,7 @@ footer {
   margin: 15px 0;
   padding: 25px;
   width: 100%;
-  background-color: #666666;
+  background-color: #ffffff;
   text-align: justify;
   border-radius: 5px;
   display: flex;
@@ -565,7 +565,7 @@ footer {
 
 .booking-form-container form input {
   border-radius: 4px;
-  border: 1px solid #6e6e6e;
+  border: 1px solid #FF8C00;
   padding: 10px;
   width: 31%;
   height: 42px;
@@ -582,7 +582,7 @@ footer {
 .schedule-section > h1 {
   padding: 0 0 20px 0;
   margin: 0 0 40px 0;
-  border-bottom: 1px solid #bdbdbd;
+  border-bottom: 1px solid #FF8C00;
   color: #6e5a11;
 }
 
