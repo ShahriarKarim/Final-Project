@@ -43,7 +43,7 @@
     <body>
         <center>
             <br><br>
-            <h1>Ticket Booking Information</h1>
+            <h1 style = "color: #1E90FF">Ticket Booking Information</h1>
             <br><br>
 
             <form method = "POST" action = "pgRedirect.php">
@@ -51,9 +51,9 @@
                     <tbody>
 
                         <tr>
-                            <th>Line Item</th>
-                            <th>Label</th>
-                            <th>Value</th>
+                            <th style = "color: #FF8C00">Line Item</th>
+                            <th style = "color: #FF8C00">Label</th>
+                            <th style = "color: #FF8C00">Value</th>
                         </tr>
 
                         <tr>
