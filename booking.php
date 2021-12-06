@@ -47,7 +47,7 @@
                         </tr>
                         <tr>
                             <td style = "color : white;">Duration</td>
-                            <td><?php echo $row['moveDuration']; ?></td>
+                            <td><?php echo $row['movieDuration']; ?></td>
                         </tr>
                         <tr>
                             <td style = "color : white;">Release Date</td>
