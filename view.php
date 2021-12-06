@@ -63,21 +63,19 @@ if (isset($_POST['but_logout'])) {
                     </div>
                 </div>
             </div>
-          
+
             <div id=BannerSpace></div>
             <div class="admin-section-panel">
-                <div class="table-wrapper">
-                    <div class="table-title">
-                        <div class="row">
-                            <div class="col-sm-10">
-                                <h2>Bookings</h2>
-                            </div>
-                            <div class="col-lg-1">
-                                <a href='add.php'><button type="button" class="btn btn-info add-new"><i class="fa fa-plus"></i>  Add New</button></a>
-                            </div>
-                        </div>
-                    </div>
 
+                <div class="admin-panel-section-header">
+                    <div class="col-sm-10">
+                        <h2>Bookings</h2>
+                    </div>
+                    <a href='add.php'><button type="button" class="btn btn-danger add-new"><i class="fa fa-plus"></i>  Add New</button></a>
+                    <i class="fas fa-ticket-alt" style="background-color: #cf4545"></i>
+                </div>
+
+                <div class="table-wrapper">
                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                         <tr>
                             <th>Booking ID</th>
@@ -93,7 +91,7 @@ if (isset($_POST['but_logout'])) {
                             <th colspan="2">Additional Options</th>
                         </tr>
                         <tbody>
-                          
+
                             <?php
                             $con = mysqli_connect($host, $user, $password, $dbname);
                             $select = "SELECT * FROM `bookingtable`";
