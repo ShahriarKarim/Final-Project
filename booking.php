@@ -40,7 +40,7 @@
             </div>
             <div class = booking-panel-section booking-panel-section3>
                 <div class = "movie-box">
-                    ?php
+                    <?php
                         echo '<img src="' . $row['movieImg'] . '" alt="">';
                     ?>
                 </div>
