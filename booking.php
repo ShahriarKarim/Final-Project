@@ -50,23 +50,23 @@
                 <div class = "movie-information">
                     <table>
                         <tr>
-                            <td>Genre</td>
+                            <td style = "color : white;">Genre</td>
                             <td><?php echo $row['movieGenre']; ?></td>
                         </tr>
                         <tr>
-                            <td>Duration</td>
+                            <td style = "color : white;">Duration</td>
                             <td><?php echo $row['moveDuration']; ?></td>
                         </tr>
                         <tr>
-                            <td>Release Date</td>
+                            <td style = "color : white;">Release Date</td>
                             <td><?php echo $row['movieRelDate']; ?></td>
                         </tr>
                         <tr>
-                            <td>Director</td>
+                            <td style = "color : white;">Director</td>
                             <td><?php echo $row['movieDirector']; ?></td>
                         </tr>
                         <tr>
-                            <td>Actors</td>
+                            <td style = "color : white;">Actors</td>
                             <td><?php echo $row['movieActors']; ?></td>
                         </tr>
                     </table>
