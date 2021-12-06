@@ -50,26 +50,32 @@ if (isset($_POST['but_logout'])) {
         <div class="container-lg">
             <div id=BannerSpace></div>
 
-            <div class="col-lg-9">
-                <div class="admin-section-stats">
-                    <div class="admin-section-stats-panel" style="border: none">
-                    </div>
-                    <div class="admin-section-stats-panel" style="border: none">
-                    </div>
-                    <div class="admin-section-stats-panel" style="border: none">
-                        <i class="fa fa-ticket-alt" style="background-color: #cf4545"></i>
-                        <h2 style="color: #cf4545"><?php echo $bookingsNo ?></h2>
-                        <h3>Bookings</h3>
+            <div class="col-lg-8">
+                    <div class="admin-section-stats">
+                        <div class="admin-section-stats-panel" style="border: none">
+                        </div>
+                        <div class="admin-section-stats-panel" style="border: none">
+                        </div>
+                        <div class="admin-section-stats-panel" style="border: none">
+                        </div>
+                        <div class="admin-section-stats-panel" style="border: none">
+                        </div>
+                        <div class="admin-section-stats-panel" style="border: none">
+                            <i class="fa fa-ticket-alt" style="background-color: #cf4545"></i>
+                            <h2 style="color: #cf4545"><?php echo $bookingsNo ?></h2>
+                            <h3>Bookings</h3>
+                        </div>
+                        <div class="admin-section-stats-panel" style="border: none" width="100%">
+                        </div>
                     </div>
                 </div>
-            </div>
 
             <div id=BannerSpace></div>
             <div class="admin-section-panel">
 
                 <div class="admin-panel-section-header">
                     <div class="col-sm-10">
-                        <h2>Bookings</h2>
+                        <h2 style="color: #cf4545">Bookings</h2>
                     </div>
                     <a href='add.php'><button type="button" class="btn btn-danger add-new"><i class="fa fa-plus"></i>  Add New</button></a>
                     <i class="fas fa-ticket-alt" style="background-color: #cf4545"></i>
