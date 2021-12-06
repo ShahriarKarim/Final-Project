@@ -98,7 +98,7 @@ if (isset($_POST['but_logout'])) {
                         <label>Add Poster</label>
                         <input type="file" name="movieImg" accept="image/*">
 
-                        <button type="submit" value="submit" name="submit" style="background-color:4547cf";>Add Movie</button>
+                        <button type="submit" value="submit" name="submit" style="background-color: #4547cf";>Add Movie</button>
                         <?php
                         if (isset($_POST['submit'])) {
                             $insert_query = "INSERT INTO 
